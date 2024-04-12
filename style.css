@@ -235,39 +235,6 @@ footer {
     height: 100vh;
 }
 
-#grad_adobe, #grad_figma, #grad_git, #grad_html, #grad_css, #grad_js, #grad_angular  {
-    border-radius: 1rem;
-    height: 2rem;
-} 
-
-#grad_adobe {
-    background: linear-gradient(90deg, #4C2C5F, #593370, #d1c2db, #F3F3F3);
-}
-
-#grad_figma{
-    background: linear-gradient(90deg, #4C2C5F, #633c7b, #d1c5d7, #F3F3F3);
-}
-
-#grad_git {
-    background: linear-gradient(90deg, #4C2C5F, #593370, #b9aac2, #c7bace, #EDE6F1, #F3F3F3);
-}
-
-#grad_html {
-    background: linear-gradient(90deg, #4C2C5F, #593370, #7f6a8b, #b5a2c1, #F3F3F3);
-}
-
-#grad_css {
-    background: linear-gradient(90deg, #4C2C5F, #593370, #7b5e8c, rgb(144, 123, 158), #bdb0c5, #F3F3F3);
-}
-
-#grad_js {
-    background: linear-gradient(90deg, #785a89, #9e8baa, #c4b8ca, #e4dee7, #EDE6F1, #F3F3F3);
-}
-
-#grad_angular {
-    background: linear-gradient(90deg, #8f749f, #b9a8c4, #d5ced9, #ede8ef, #f3eff6, #F3F3F3);
-}
-
 @media (max-width: 1024px){
 
     .banner {
@@ -443,10 +410,6 @@ footer {
         text-align: center;
     }
 
-    #grad_adobe, #grad_figma, #grad_git, #grad_html, #grad_css, #grad_js, #grad_angular {
-        height: 1.5rem;
-    }
-
     .habilidades h2 {
         padding: 0 0 0 .5rem;
         color: #593370;
@@ -464,3 +427,30 @@ footer {
     }
 
 }
+
+.container_skills {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 1rem;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 1rem 0 0 1rem;
+    
+  }
+  
+  .grad_html, .grad_css, .grad_js, .grad_git, .grad_figma, .grad_adobe, .grad_angular {
+    background-color: #725781;
+  }
+
+  .grad_html {width: 95%;}
+  .grad_adobe {width: 90%;}
+  .grad_css {width: 85%;}
+  .grad_js {width: 35%;}
+  .grad_angular {width: 10%;}
+  .grad_git {width: 25%;}
+  .grad_figma {width: 65%;}
